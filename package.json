@@ -9,12 +9,16 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@prisma/client": "^3.10.0",
+    "@shopify/shopify-api": "^2.1.0",
+    "ioredis": "^4.28.5",
     "next": "12.1.0",
     "react": "17.0.2",
     "react-dom": "17.0.2"
   },
   "devDependencies": {
     "eslint": "8.9.0",
-    "eslint-config-next": "12.1.0"
+    "eslint-config-next": "12.1.0",
+    "prisma": "^3.10.0"
   }
 }
